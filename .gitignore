@@ -61,3 +61,4 @@ jspm_packages/
 # development environment and other misc files
 config.toml
 *.sqlite
+replit.nix
