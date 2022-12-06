@@ -4,7 +4,8 @@
   "description": "",
   "main": "lib/bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "keywords": [],
   "author": "",
@@ -25,5 +26,12 @@
     "toml": "^3.0.0",
     "winston": "^3.8.2",
     "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "nodemonConfig": {
+    "ignore": ["/lib/utils/*", "/lib/events/*", "/logs/*"],
+    "delay": 2500
   }
 }
