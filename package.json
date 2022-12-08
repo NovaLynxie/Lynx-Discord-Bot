@@ -4,7 +4,7 @@
   "description": "Discord.JS Bot for v14 onwards! A custom made discord bot.",
   "main": "lib/bot.js",
   "scripts": {
-    "start": "node .",
+    "start": "node --trace-warnings .",
     "dev": "nodemon ."
   },
   "keywords": [],
@@ -28,10 +28,15 @@
     "winston-daily-rotate-file": "^4.7.1"
   },
   "devDependencies": {
+    "node": "^16.18.1",
     "nodemon": "^2.0.20"
   },
   "nodemonConfig": {
-    "ignore": ["/lib/utils/*", "/lib/events/*", "/logs/*"],
+    "ignore": [
+      "/lib/utils/*",
+      "/lib/events/*",
+      "/logs/*"
+    ],
     "delay": 2500
   }
 }
