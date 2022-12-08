@@ -1,0 +1,30 @@
+{
+  "explicitFilterLevel": {
+    "DISABLED": "Off",
+    "MEMBERS_WITHOUT_ROLES": "No Role",
+    "ALL_MEMBERS": "Everyone"
+  },
+  "verificationLevel": {
+    "NONE": "None",
+    "LOW": "Low",
+    "MEDIUM": "Medium",
+    "HIGH": "High",
+    "VERY_HIGH": "Very High"
+  },
+  "nsfwLevel": {
+    "DEFAULT": "Unrestricted",
+    "EXPLICIT": "Explicit",
+    "SAFE": "Safe",
+    "AGE_RESTRICTED": "Age Restricted (18+)"
+  },
+  "mfa2fa": {
+    "NONE": "Disabled",
+    "ELEVATED": "Enabled"
+  },
+  "premiumTier": {
+    "NONE": "None",
+    "TIER_1": 1,
+    "TIER_2": 2,
+    "TIER_3": 3
+  }
+}
