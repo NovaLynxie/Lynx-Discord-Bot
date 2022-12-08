@@ -62,4 +62,4 @@ jspm_packages/
 config.toml
 *.sqlite
 *.replit
-replit.nix
+*.nix
