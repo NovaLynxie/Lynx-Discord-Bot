@@ -5,4 +5,4 @@ npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_module
 node -v
 echo "Version configuration complete! Starting bot application..."
 clear
-npm start
+npm start #run dev

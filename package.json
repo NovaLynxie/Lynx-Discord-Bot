@@ -5,7 +5,7 @@
   "main": "lib/bot.js",
   "scripts": {
     "start": "node --trace-warnings .",
-    "dev": "nodemon ."
+    "dev": "nodemon --trace-warnings ."
   },
   "keywords": [],
   "author": "",
@@ -18,8 +18,12 @@
     "discord-api-types": "^0.37.11",
     "discord.js": "^14.5.0",
     "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
     "ffmpeg-static": "^5.1.0",
     "node-fetch": "^3.2.6",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4",
     "play-dl": "^1.9.5",
     "sequelize": "^6.25.8",
     "sqlite3": "^5.1.2",
@@ -33,10 +37,12 @@
   },
   "nodemonConfig": {
     "ignore": [
+      "/lib/commands/*",
+      "/lib/dashboard/*",
       "/lib/utils/*",
       "/lib/events/*",
       "/logs/*"
     ],
-    "delay": 2500
+    "delay": 5000
   }
 }
