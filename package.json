@@ -26,7 +26,6 @@
     "helmet": "^6.0.1",
     "node-fetch": "^3.2.6",
     "passport": "^0.6.0",
-    "passport-discord": "^0.1.4",
     "passport-discord-faxes": "^0.1.6",
     "play-dl": "^1.9.5",
     "sequelize": "^6.25.8",
