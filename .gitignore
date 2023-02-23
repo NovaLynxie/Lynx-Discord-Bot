@@ -1,4 +1,18 @@
-# Logs
+# development environment and other misc files
+
+.toml
+.env
+.db
+.sqlite
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# application logs
 logs
 *.log
 npm-debug.log*
@@ -7,25 +21,9 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
-# Diagnostic reports (https://nodejs.org/api/report.html)
+# diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
-# Dependency directories
+# dependency directories
 node_modules/
 jspm_packages/
-
-# dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
-# DynamoDB Local files
-.dynamodb/
-
-# development environment and other misc files
-config.toml
-.sqlite
-.replit
-.nix
-.db

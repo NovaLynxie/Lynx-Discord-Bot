@@ -1,0 +1,24 @@
+# Main Configuration
+
+[general]
+# Owners (OPERATORS)
+# User IDs placed here will bypass all permission restrictions.
+# THIS IS A DANGEROUS PERMISSION LEVEL TO GRANT!
+ownerIDs = ['234356998836191232']
+
+[developer]
+# Legacy connection mode.
+legacyEndpoint = false
+# Debug mode
+enableDebug = false
+
+[dashboard]
+# Bot Dashboard.
+# Dashboard settings to enable it and set ports.
+enableDash = true
+# Dashboard port. Default is '3000'.
+dashSrvPort = 4000
+# Dashboard domain. This is where your 'site' for your dashboard will be.
+dashDomain = 'https://lynxbotrepl.novalynxie.repl.co/'
+# CSP options. reportOnly logs Content Security Protocols response in browser console.
+reportOnly = false
