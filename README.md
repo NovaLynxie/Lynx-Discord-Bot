@@ -8,5 +8,5 @@
  It comes with custom moderation tools such as automoderation and a few fun features such as a music player command.
  We aim to be a simple bot that is modular and customizable to your server's needs, with the option to add your own commands as you see fit.
 
-**Notice: Due to problems and inconsistencies with replit.com gitignore failing, this branch will no longer be updated.**
+**Notice: Due to problems and inconsistencies with replit.com gitignore failing, this branch will no longer be updated.**  
 Please follow the main branch instead for code updates.
